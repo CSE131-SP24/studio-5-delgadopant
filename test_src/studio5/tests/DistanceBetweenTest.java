@@ -31,6 +31,7 @@ public class DistanceBetweenTest {
 	 * Test the distance between (1,0) and (2,0) is ~1.0
 	 */
 	@Test
+	
 	public void testPointsA() {
 		// Test that the distance between (1,0) and (2,0) is ~1.0
 		assertEquals(1.0, Methods.distanceBetween(1.0, 0.0, 2.0, 0.0), 1e-5);
